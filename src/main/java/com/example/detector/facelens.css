@@ -1,0 +1,209 @@
+/* FaceLens: tema pastel */
+
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13px;
+    -fx-text-fill: #4A3A33;
+}
+
+.label {
+    -fx-text-fill: #4A3A33;
+}
+
+.app-root {
+    -fx-background-color: #FBE9DE;
+}
+
+/* ---------- Shiriti i ikonave */
+.rail {
+    -fx-background-color: #F6DDCF;
+}
+
+.rail-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #C98A9B;
+    -fx-font-size: 22px;
+    -fx-padding: 14 10 14 10;
+    -fx-cursor: hand;
+}
+
+.rail-btn:hover {
+    -fx-text-fill: #7C6AF0;
+}
+
+.rail-btn-selected {
+    -fx-background-color: #FBE9DE;
+    -fx-background-radius: 0 18 18 0;
+    -fx-text-fill: #7C6AF0;
+}
+
+/* ---------- Paneli i kontrollit */
+.panel-scroll,
+.panel-scroll > .viewport {
+    -fx-background-color: #FAE3D4;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.panel {
+    -fx-background-color: #FAE3D4;
+}
+
+.panel-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: 800;
+}
+
+.panel-heart {
+    -fx-font-size: 22px;
+    -fx-text-fill: #F58FA8;
+}
+
+.panel-key {
+    -fx-text-fill: #8A726A;
+    -fx-font-size: 12px;
+}
+
+.panel-value {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.panel-section-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.status-active {
+    -fx-text-fill: #2E9E4F;
+}
+
+.status-idle {
+    -fx-text-fill: #9A8B85;
+}
+
+.separator .line {
+    -fx-border-color: #EBCBB8 transparent transparent transparent;
+    -fx-border-width: 1;
+}
+
+/* ---------- Butonat pill */
+.pill-btn {
+    -fx-background-radius: 22;
+    -fx-border-radius: 22;
+    -fx-border-color: #4A3A33;
+    -fx-border-width: 2;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4A3A33;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+
+.pill-btn:hover {
+    -fx-effect: dropshadow(gaussian, rgba(74,58,51,0.35), 8, 0.2, 0, 2);
+}
+
+.pill-btn:pressed {
+    -fx-translate-y: 1;
+}
+
+.pill-start {
+    -fx-background-color: linear-gradient(to right, #D9C2FA, #B5E3F7);
+}
+
+.pill-pause {
+    -fx-background-color: linear-gradient(to right, #F9A8C0, #FBD38D);
+}
+
+.pill-capture {
+    -fx-background-color: linear-gradient(to right, #A8E6CF, #FBE9A0);
+}
+
+.pill-log {
+    -fx-background-color: linear-gradient(to right, #C9B6F5, #F3B6E3);
+}
+
+/* ---------- Log */
+.log-area {
+    -fx-control-inner-background: #F3D7C6;
+    -fx-background-color: #F3D7C6;
+    -fx-background-radius: 12;
+    -fx-border-color: #E6BFA9;
+    -fx-border-radius: 12;
+    -fx-font-family: "Consolas";
+    -fx-font-size: 11px;
+}
+
+.log-area .content {
+    -fx-background-color: #F3D7C6;
+    -fx-background-radius: 12;
+}
+
+/* ---------- Titulli dhe zgjedhjet lart */
+.app-title {
+    -fx-font-size: 44px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #F58FA8;
+    -fx-effect: dropshadow(one-pass-box, #4A3A33, 0, 1, 2, 2);
+}
+
+.combo-lilac {
+    -fx-background-color: #D9C7FA;
+    -fx-background-radius: 16;
+    -fx-border-color: #4A3A33;
+    -fx-border-radius: 16;
+    -fx-border-width: 2;
+    -fx-font-weight: bold;
+}
+
+.combo-mint {
+    -fx-background-color: #C3F0D3;
+    -fx-background-radius: 16;
+    -fx-border-color: #4A3A33;
+    -fx-border-radius: 16;
+    -fx-border-width: 2;
+    -fx-font-weight: bold;
+}
+
+/* ---------- Karta e kamerës */
+.feed-card {
+    -fx-background-color: #FFF6EF;
+    -fx-background-radius: 26;
+    -fx-effect: dropshadow(gaussian, rgba(74,58,51,0.18), 18, 0.1, 0, 4);
+}
+
+.feed-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.feed-frame {
+    -fx-background-color: #EFE6E0;
+    -fx-background-radius: 22;
+    -fx-border-color: #5B463D;
+    -fx-border-width: 3;
+    -fx-border-radius: 22;
+}
+
+.hint-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #B58F82;
+}
+
+.hint-text {
+    -fx-text-fill: #B58F82;
+}
+
+/* ---------- Kapsulat */
+.chip {
+    -fx-background-radius: 16;
+    -fx-padding: 6 16 6 16;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.chip-blue  { -fx-background-color: #BFDFFA; }
+.chip-green { -fx-background-color: #C3F0D3; }
+.chip-pink  { -fx-background-color: #F9C3CF; }
+.chip-peach { -fx-background-color: #F6D9C6; }
